@@ -1,0 +1,28 @@
+.fixed_top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar_logo {
+  font-family: monospace;
+  font-size: 15px;
+}
+.navbar_logo img {
+  width: 70px;
+  filter: drop-shadow(1px 1px 3px rgba(25, 131, 230, 0.8078431373));
+}
+
+.btn_outline_ftg {
+  color: #4799eb;
+  border-color: #4799eb;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  background: transparent;
+  font-size: 15px;
+  border-radius: 7px;
+  padding: 10px;
+}/*# sourceMappingURL=index.module.css.map */

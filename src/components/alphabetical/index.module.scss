@@ -1,0 +1,52 @@
+.loading_animation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    animation: up-and-down;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 50%;
+  }
+}
+.game_body {
+  background: #32383e;
+}
+.card_title {
+  color: #aaaaaa;
+}
+.badge_ftg {
+  color: #fff;
+  background-color: #4799eb;
+}
+.badge_genre {
+  padding-top: 1px;
+  padding-bottom: 2px;
+  transform: translateY(-12%);
+  padding: 0 7px;
+  border-radius: 7px;
+}
+.one {
+  animation-delay: 0.3s !important;
+}
+.two {
+  animation-delay: 0.6s !important;
+}
+.three {
+  animation-delay: 0.9s !important;
+}
+.four {
+  animation-delay: 0.12s !important;
+}
+@keyframes up-and-down {
+  to {
+    transform: translateY(-20px);
+  }
+}

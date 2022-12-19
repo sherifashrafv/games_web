@@ -1,0 +1,39 @@
+.main_cont {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+}
+.card_body {
+  flex: 1 1 auto;
+}
+.bg_register_image {
+  background-image: url("../../Assets/images/gaming.ebaf2ffc84f4451d.jpg");
+  background-position: cover;
+  background-size: 100% 100%;
+}
+.login {
+  background: #32383e;
+}
+.main_cont {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+}
+.btn_primary {
+  color: #fff !important;
+  background-color: #3a3f44 !important;
+  border-color: #22241d !important;
+}
+.a2 {
+  color: #4799eb;
+  text-decoration: none;
+  background-color: transparent;
+}
+.deep_dark {
+  background-color: #1c1e22 !important;
+  border: 0 solid rgba(0, 0, 0, 0.6) !important;
+  border-radius: 5px !important;
+  color: #fff !important;
+}
